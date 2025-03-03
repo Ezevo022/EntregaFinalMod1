@@ -1,0 +1,25 @@
+body {
+    background-color:pink;
+}
+
+.titulo_principal {
+    background-color:rgba(247, 201, 231, 0.925);
+    text-align: center;
+    font-family: fantasy;
+}
+
+.carousel_principal {
+    width: 500px;
+    height: 900px;
+}
+
+.container_mapa {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.parrafo_mapa {
+    width: 300px;
+    padding: 10px;
+}
