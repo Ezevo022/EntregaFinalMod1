@@ -9,8 +9,10 @@ body {
 }
 
 .carousel_principal {
-    width: 500px;
-    height: 900px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 700px;
 }
 
 .container_mapa {
@@ -27,4 +29,17 @@ body {
 .logo_principal {
     height: 100px;
     padding: 5px;
+}
+
+.formulario_contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+.grupo_tarjetas {
+    flex-direction: row;
+    justify-content:space-evenly;
 }
